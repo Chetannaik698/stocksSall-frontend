@@ -6,7 +6,7 @@ const People = () => {
       <div className="row p-5">
         <h3 className="text-center">People</h3>
         <div className="col-md-6 col-12 img-col mt-3">
-          <img src="public\nithin-kamath.jpg" alt="" />
+          <img src="/nithin-kamath.jpg" alt="" />
           <p>Nithin Kamath</p>
           <small >Founder, CEO</small>
         </div>
