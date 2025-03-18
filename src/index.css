@@ -1,0 +1,39 @@
+.nav-box {
+  display: flex !important;
+  gap: 2rem;
+}
+.text-secondary {
+  color: black !important;
+}
+.nav-box .active {
+  color: blue !important;
+}
+.nav-box{
+  font-size: 14px;
+  color: #666666 !important;
+}
+.footer-container  i{
+  margin-right: 20px;
+  opacity: 0.8;
+  font-size: 18px;
+}
+/* .footer-container a{
+  text-decoration: none !important;
+  color: #666666 !important; 
+  margin-bottom: 10px !important;
+} */
+.f-col a{
+  color: #666666;
+  line-height: 2;
+}
+.footer-p p{
+  font-size: 12px;
+}
+.footer-container {
+  margin-top: 5rem !important;
+}
+@media (max-width: 1000px) {
+  .nav i {
+     display: none;
+  }
+}

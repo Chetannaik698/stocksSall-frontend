@@ -1,0 +1,97 @@
+.hero {
+  width: 80%;
+  margin: 2rem auto;
+}
+.hero-content {
+  text-align: center;
+}
+.hero-content button {
+  width: 20%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 0.4rem;
+  background-color: #387ed1;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-style: bold;
+}
+.hero-content p {
+  font-size: 1.5rem;
+  color: #424242;
+}
+.hero-content h1 {
+  color: #424242;
+}
+.ecosystem p {
+  color: #666666;
+}
+.ecosystem h3 {
+  font-size: 1.3rem;
+}
+
+.price img {
+  max-width: 150px;
+}
+
+a i {
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .hero {
+    width: 90%;
+  }
+  .hero-content button {
+    width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    width: 95%;
+  }
+  .hero-content button {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    width: 100%;
+  }
+  .hero-content button {
+    width: 40%;
+  }
+  .hero-content p {
+    font-size: 1.3rem;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .ecosystem {
+    padding: 10px !important;
+  }
+  .price {
+    padding: 10px !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content button {
+    width: 50%;
+    font-size: 1.2rem;
+  }
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+}
