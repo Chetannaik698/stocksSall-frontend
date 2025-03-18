@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="container hero" style={{marginTop:"6rem"}}>
       <div className="row">
-        <img src="public/landing.png" className="hero" alt="" />
+        <img src="/landing.png" className="hero" alt="" />
       </div>
       <div className="row hero-content">
         <h1 className="mt-4">Learn and Earn</h1>
