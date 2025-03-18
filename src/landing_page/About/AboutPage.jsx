@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutHero from './AboutHero'
 import './About.css'
-import People from './people'
+import People from './People'
 import Team from './Team'
 
 const AboutPage = () => {
