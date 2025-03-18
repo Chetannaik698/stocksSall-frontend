@@ -1,4 +1,4 @@
-import "./Index.css";
+import "./index.css";
 import HomePage from "./landing_page/Home/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./landing_page/Footer";
