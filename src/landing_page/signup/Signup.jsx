@@ -21,7 +21,7 @@ const Signup = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/signup",
+        "https://stockstall-backend.onrender.com/signup",
         formData,
         {
           headers: {
@@ -31,7 +31,7 @@ const Signup = () => {
       );
 
       if (response.status === 201 || response.data.success) {
-        window.location.href = "http://localhost:5174/";
+        window.location.href = "https://dasboardstockstall.netlify.app/";
       } else {
         alert("Signup failed!");
       }

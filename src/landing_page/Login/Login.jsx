@@ -18,7 +18,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8080/login', formData, {
+      const response = await axios.post('https://stockstall-backend.onrender.com/login', formData, {
         headers: {
           'Content-Type': 'application/json'
         }
@@ -26,7 +26,7 @@ const Login = () => {
 
       if (response.status === 201 || response.data.success) {
         // Redirect to your dashboard project directly
-        window.location.href = "http://localhost:5174/";
+        window.location.href = "https://dasboardstockstall.netlify.app/";
       }
     } catch (error) {
       console.error('Error during login:', error);
